@@ -12,8 +12,10 @@ public class Dinner extends AppCompatActivity {
         TextView textView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dinner);
+        //setting up the back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         textView=(TextView) findViewById(R.id.dinner_meal_one);
+        // setting text as scrollable
         textView.setMovementMethod(new ScrollingMovementMethod());
     }
 }

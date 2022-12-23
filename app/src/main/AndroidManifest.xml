@@ -46,6 +46,11 @@
             android:parentActivityName=".Breakfast"/>
 
 
+
+        <activity
+            android:name="com.example.finaltest.ReportABug" />
+
+
         <activity android:name="com.example.finaltest.Login"
             android:exported="true">
 

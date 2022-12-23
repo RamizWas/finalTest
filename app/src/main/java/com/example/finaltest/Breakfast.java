@@ -14,8 +14,10 @@ public class Breakfast extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_breakfast);
+        //enabling the back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         textView=(TextView) findViewById(R.id.meal_one);
+        //setting text as scrollable
         textView.setMovementMethod(new ScrollingMovementMethod());
 
     }
